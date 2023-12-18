@@ -1,5 +1,5 @@
-import React from 'react'
 import { Navbar } from './_components/navbar'
+import { Footer } from './_components/footer'
 
 const layout = ({ children }: {
     children: React.ReactNode
@@ -11,6 +11,7 @@ const layout = ({ children }: {
             <main className='pt-40 pb-20 bg-slate-100'>
                 {children}
             </main>
+            <Footer/>
         </div>
     )
 }
