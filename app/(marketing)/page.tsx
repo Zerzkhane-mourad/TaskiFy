@@ -33,12 +33,12 @@ const page = () => {
             <div className={cn(
                 "flex items-center justify-center flex-col",
                 headingFont.className,
-            )}>                <div className='mb-4 flex items-center border shadow-sm p-4 bg-amber-100 text-amber-700 rounded-full uppercase'>
+            )}>                <div className={cn('mb-4 flex items-center border shadow-sm p-4 bg-amber-100 text-amber-700 rounded-full uppercase', headingFont.className)}>
                     <Medal className='h-6 w-6 mr-2' />
                     No Task Mangement
                 </div>
             </div>
-            <h1 className='text-3xl md:text-6xl text-center text-neutral-800 mb-6'>
+            <h1 className={cn('text-3xl md:text-6xl text-center text-neutral-800 mb-6', headingFont.className)}>
                 Taskify helps team move
             </h1>
             <div className='text-3xl md:text-6xl bg-gradient-to-r from-fuchsia-500 to-pink-600 text-white px-4 p-2 rounded-xl pb-4 w-fit'>
